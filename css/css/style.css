@@ -1,0 +1,73 @@
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/landing\ page.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+section.cc {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/landing\ page.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+header.masthead:before {
+    content: "";
+    position: absolute;
+    background-color: #1c375e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+header.masthead h1, header.masthead .h1 {
+    font-size: 48px;    
+}
+.al {
+    font-size: 72px;
+}
+.showcase {
+    min-height: 480px;
+    background-size: cover;
+}
+.showcase-img {
+    min-height: 480px;
+    background-size: cover;
+}
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.rr {
+    margin-left: 120px;
+}
+.kk {
+    margin-left: 120px;
+    margin-right: 100px;
+}
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.testimonials .testimonial-item {
+    max-width: 18rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
